@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import "tailwindcss";
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
+
+@theme {
+  /* Fontes */
+  --font-neueHaasMedium: "Neue Haas Display Medium", sans-serif;
+  --font-neueHaasRoman: "Neue Haas Display Roman", sans-serif;
+
+  --font-headline: "Instrument Serif", serif;
+  --font-body: "Inter", sans-serif;
+
+  /* Breakpoints */
+  --breakpoint-sm: 600px;
+  --breakpoint-md: 728px;
+  --breakpoint-2md: 991px;
+  --breakpoint-lg: 1024px;
+  --breakpoint-xl: 1240px;
+  --breakpoint-2xl: 1496px;
+
+  /* Cores */
+  --color-background: #fffdf8;
+  --color-white: #FFFCF3;
+  --color-black: #201f1d;
+  --color-blue: #287dff;
+  --color-grey: #706b66;
+  --color-light-grey: #f0ebdc80;
+  --color-tag: #eee9e2;
+  --color-border: #d2cab2;
+  --color-hover: #F4EEE380;
+
+  /* Border radius */
+  --radius-0: 0px;
+  --radius-2xs: 2px;
+  --radius-xs: 4px;
+  --radius-s: 8px;
+  --radius-m: 12px;
+  --radius-l: 16px;
+  --radius-xl: 24px;
+  --radius-2xl: 32px;
+  --radius-3xl: 48px;
+  --radius-round: 999px;
+  --radius: 32px;
+  --radius-lg: var(--radius);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-sm: calc(var(--radius) - 4px);
+
+  /* Border Width */
+  --border-0: 0px;
+  --border-xs: 1px;
+  --border-sm: 2px;
+  --border-md: 3px;
+  --border-lg: 4px;
+
+  /* Font Sizes */
+  --text-headline-xl: 96px;
+  --text-headline-xl-mobile: 56px;
+  --text-headline-l: 64px;
+  --text-headline-l-mobile: 48px;
+  --text-headline-m: 48px;
+  --text-headline-m-mobile: 42px;
+  --text-headline-s: 32px;
+  --text-title: 40px;
+  --text-subtitle: 24px;
+  --text-body: 20px;
+  --text-tag: 16px;
+  --text-tag-mobile: 12px;
+
+  /* Box Shadows */
+  --shadow-xs: 0 1px 4px 0 rgba(0, 0, 0, 0.1);
+  --shadow-sm: 0 2px 8px 0 rgba(0, 0, 0, 0.1);
+  --shadow-md: 0 8px 16px 0 rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 16px 32px 0 rgba(0, 0, 0, 0.1);
+  --shadow-test: 0 35px 60px -15px rgba(0, 0, 0, 0.3);
+  --shadow-xs-top: 0 -1px 4px 0 rgba(0, 0, 0, 0.1);
+  --shadow-sm-top: 0 -2px 8px 0 rgba(0, 0, 0, 0.1);
+  --shadow-md-top: 0 -8px 16px 0 rgba(0, 0, 0, 0.1);
+  --shadow-lg-top: 0 -16px 32px 0 rgba(0, 0, 0, 0.1);
+}
