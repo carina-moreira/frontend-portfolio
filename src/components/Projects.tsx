@@ -15,7 +15,7 @@ const ProjectsSection = () => {
             href={`/project/${project.slug}`}
             className="flex flex-col group md:flex-row group gap-6 md:gap-4 p-6 -mx-6 rounded-lg hover:bg-hover transition-colors"
           >
-            <div className=" w-full h-full md:max-w-[245px] rounded-xs overflow-hidden ">
+            <div className="w-full h-full md:max-w-[245px] rounded-xs overflow-hidden ">
               <Image
                 src={project?.media?.[0]?.src}
                 alt={project.title}
@@ -25,7 +25,7 @@ const ProjectsSection = () => {
                 loading="lazy"
               ></Image>
             </div>
-            <div className="flex flex-col justify-between w-[55%]">
+            <div className="flex flex-col justify-between md:w-[55%]">
               <div className="flex flex-col">
                 <div className="flex items-center justify-between gap-4 mb-2 group">
                   <h3 className="text-xl font-body font-medium group-hover:text-blue transition-colors">

@@ -14,7 +14,7 @@ type Props = {
 export default function ProjectDetail({ project }: Props) {
   return (
     <main className="min-h-screen  max-w-3xl mx-auto flex flex-col flex-1 items-center justify-center pt-16 px-8 lg:pt-32 lg:px-16 sm:items-start">
-      <nav className="w-full py-6 ">
+      <nav className="w-full pb-6 ">
         <Link
           href="/"
           className="inline-flex items-center gap-2 text-sm text-grey hover:text-blue transition-colors"
